@@ -1007,5 +1007,5 @@ jobs:
           grep -h "symbol:" build.log | sed 's/^ *//' | sort | uniq -c | sort -rn | head -30
       - uses: actions/upload-artifact@v4
         with:
-          name: MeowClient-jar
+          name: MeowClientfixed-jar
           path: proj/build/libs/*.jar
